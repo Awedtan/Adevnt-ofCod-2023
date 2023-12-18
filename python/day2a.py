@@ -1,9 +1,10 @@
 import re
 
 sum = 0
+f = open('input.txt', 'r')
 
 while True:
-    line = input()
+    line = f.readline()
     if line =='':
         break
 
